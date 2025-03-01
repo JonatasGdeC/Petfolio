@@ -1,11 +1,11 @@
 using Petfolio.Communication.Requests;
 using Petfolio.Communication.Responses;
 
-namespace Petfolio.Application.UseCases.Pet.Register;
+namespace Petfolio.Application.UseCases.Pets.Register;
 
 public class RegisterPetUserCase
 {
-    public ResponseRegisterPetJson Execute(RequestRegisterPetJson request)
+    public ResponseRegisterPetJson Execute(RequestPetJson request)
     {
         return new ResponseRegisterPetJson
         {
