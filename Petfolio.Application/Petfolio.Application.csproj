@@ -10,8 +10,4 @@
       <ProjectReference Include="..\Petfolio.Communication\Petfolio.Communication.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <EditorConfigFiles Include=".editorconfig" />
-    </ItemGroup>
-
 </Project>
